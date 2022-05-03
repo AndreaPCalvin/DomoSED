@@ -8,7 +8,6 @@ LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 #define BUZZER_PIN 10 //zumbador
 #define PULSADOR_PUERTA_PIN 2 // Pulsador para abrir la puerta
 #define PULSADOR_AUTOM_PIN 3 // Pulsador para automatización
-
 #define LUZ_THRESHOLD 750 // Luz umbral para luz natural
 #define TEMP_THRESHOLD 18 // Temperatura umbral para calefacción
 #define TIME_DEBOUNCE 200 // Tiempo (en ms) de eliminacion de rebotes
